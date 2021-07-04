@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>Exercises.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Specialized" Version="4.3.0" />
+
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3"></PackageReference>
+    <PackageReference Include="NUnit" Version="3.13.0"></PackageReference>
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0"></PackageReference>
+
+    <ProjectReference Include="..\Examples\Examples.csproj" />
+    <ProjectReference Include="..\LaYumba.Functional.Data\LaYumba.Functional.Data.csproj" />
+    <ProjectReference Include="..\LaYumba.Functional\LaYumba.Functional.csproj" />
+  </ItemGroup>
+
+</Project>
